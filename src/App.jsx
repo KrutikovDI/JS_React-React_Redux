@@ -5,9 +5,9 @@ function App() {
 
   return (
     <div className='main'>
-      <MainApp/>
+      <MainApp/>  
     </div>
   )
 }
 
-export default App
+export default App;

@@ -1,12 +1,12 @@
 import { combineReducers, compose, legacy_createStore } from "redux";
-import numberReducer from './numberReducer'
+import writingReducer from './writingReducer'
 
 const ReacrReduxDevTools = window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__();
 
 function configureStore() {
   return legacy_createStore(
     combineReducers({
-      number: numberReducer,
+      writing: writingReducer,
     }),
     undefined,
     compose(

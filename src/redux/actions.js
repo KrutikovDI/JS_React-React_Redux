@@ -1,7 +1,11 @@
-export const CHANGE_NUMBER = 'CHANGE_NUMBER';
-export const SET_USER_VALUE = 'SET_USER_VALUE';
+export const CHANGE_TEXT = 'CHANGE_TEXT';
+export const CHANGE_PRICE = 'CHANGE_PRICE';
+export const CHANGE_RECORDS = 'CHANGE_RECORDS';
+export const CHANGE_ID = 'CHANGE_ID';
 
 export default {
-  CHANGE_NUMBER,
-  SET_USER_VALUE
+  CHANGE_TEXT,
+  CHANGE_PRICE,
+  CHANGE_RECORDS,
+  CHANGE_ID
 };
