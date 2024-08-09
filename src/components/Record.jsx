@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const Record = (props) => {
 
   const { text, price, id } = props.item;
